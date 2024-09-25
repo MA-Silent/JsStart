@@ -3,6 +3,6 @@ function darkmode(){
     body.classList.toggle("dark-mode")
 }
 var time = new Date().getHours()
-if(time > 14){
+if(time > 14 || time == 14){
     darkmode()
 }
