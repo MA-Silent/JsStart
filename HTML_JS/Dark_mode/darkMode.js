@@ -1,9 +1,8 @@
 function darkmode(){
-    var element = document.body;
-    element.classList.toggle("dark-mode")
+    var body = document.body;
+    body.classList.toggle("dark-mode")
 }
 var time = new Date().getHours()
-if(time > 19){
+if(time > 14){
     darkmode()
 }
-
