@@ -10,7 +10,7 @@ function Age_calc(j, m, d){
     return out.toFixed(2)
 }
 
-console.log("Je bent "+Age_calc(jaar,maand,dag)+ " jaar oud")
+console.warn("Je bent "+Age_calc(jaar,maand,dag)+ " jaar oud")
 console.log("Je geboorte jaar is: " + jaar);
 console.log("Je geboorte maand is: " + maand);
 console.log("Je geboorte dag is: " + dag);
