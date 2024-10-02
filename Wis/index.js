@@ -1,5 +1,7 @@
 function brekenKubus(a, b, c) {
-    return a * b * c;
+    var intermediary = a * b * c;
+    var math = intermediary.toFixed(2);
+    return math
 }
 function brekenCylinder(hoogte, straal) {
     var intermediary = Math.PI * straal**2 * hoogte;
@@ -13,7 +15,9 @@ function brekenRHDriehoek(a, b) {
 }
 
 function averageOfSeven(a, b, c, d, e, f, g) {
-    return a + b + c + d + e + f + g / 7;
+    var intermediary = a + b + c + d + e + f + g / 7;
+    var math = intermediary.toFixed(2);
+    return math
 }
 let kubus = brekenKubus(10, 5, 2);
 let average = averageOfSeven(1, 2, 3, 4, 5, 6, 7);
