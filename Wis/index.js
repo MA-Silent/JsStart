@@ -15,7 +15,7 @@ function brekenRHDriehoek(a, b) {
 }
 
 function averageOfSeven(a, b, c, d, e, f, g) {
-    var intermediary = a + b + c + d + e + f + g / 7;
+    var intermediary = (a + b + c + d + e + f + g)/7;
     var math = intermediary.toFixed(2);
     return math
 }
